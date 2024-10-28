@@ -35,4 +35,11 @@ The vector DB used in this project is FAISS.
 # Output 2:
 ![Screenshot from 2024-10-28 12-19-05](https://github.com/user-attachments/assets/d1058d9b-5f21-4b9c-82fb-29583d5c6ded)
 
+# ................................................................................................................
+![image](https://github.com/user-attachments/assets/a6d364a9-e871-403d-918f-615779b5baec)
+
+![image](https://github.com/user-attachments/assets/c52ee6b6-9419-4066-b5d2-387367126c03)
+
+
+
 
