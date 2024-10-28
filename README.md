@@ -16,7 +16,7 @@ The vector DB used in this project is FAISS.
 
 1. Import the required libraries
 2. Define the embedding model, vector db filename and the llm to be used.
-3. load the data from the CSV file using CSVLoader function.
+3. Load the data from the CSV file using CSVLoader function.
 4. Create a FAISS instance for a vector database from the above data using FAISS.from_documents by passing the data as document and embedding model as embedding in the argument.
 5. Save vector database locally
 6. Steps 3 to 5 are done only once if the vector db doesn't exist.
@@ -27,7 +27,7 @@ The vector DB used in this project is FAISS.
 11. Retrieve the content from the data using RetrievalQA.from_chain_type function by passing the llm, chain_type, retriever, input_key (user query), return_source_documents value, and chain_type_kwargs as "prompt": PROMPT (step 10 value)
 12. Provide an app to the user using Streamlit.
 13. When the user enters a query and clicks the submit button, steps 7 to 11 get executed and finally display the output.
-14. if the user ask anything outside the data, the chatbot will say "I don't know. This is Covid related Chatbot" as it is mentioned in the prompt.
+14. If the user asks anything outside the data, the chatbot will say "I don't know. This is Covid related Chatbot" as it is mentioned in the prompt.
 
 # Output 1:
 ![Screenshot from 2024-10-28 12-16-08](https://github.com/user-attachments/assets/3cd7f81c-a94e-4de2-b8f3-5a0f111dfc4d)
