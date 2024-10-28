@@ -12,5 +12,5 @@ The Embedding model used for embedding the contents in the CSV is a hugging face
 
 The vector DB used in this project is FAISS.
 
-Steps Invloved:
+# Steps Invloved:
 
