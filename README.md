@@ -28,6 +28,7 @@ The vector DB used in this project is FAISS.
 12. Provide an app to the user using Streamlit.
 13. When the user enters a query and clicks the submit button, steps 7 to 11 get executed and finally display the output.
 14. If the user asks anything outside the data, the chatbot will say "I don't know. This is Covid related Chatbot" as it is mentioned in the prompt.
+15. The code is executed using the command "streamlit run main.py" in the terminal.
 
 # Output 1:
 ![Screenshot from 2024-10-28 12-16-08](https://github.com/user-attachments/assets/3cd7f81c-a94e-4de2-b8f3-5a0f111dfc4d)
